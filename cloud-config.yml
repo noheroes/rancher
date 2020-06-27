@@ -1,0 +1,9 @@
+#cloud-config
+rancher:
+  network:
+    interfaces:
+      eth0:
+        address: 172.16.170.3/16
+        gateway: 172.16.0.2
+        mtu: 1500
+        dhcp: false
